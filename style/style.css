@@ -1,0 +1,144 @@
+:root{
+    --azul: #3d5bdd;
+    --preto: #141414;
+    --branco: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header .logo{
+    margin-left: 25px;
+    color: var(--azul);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 10px;
+    transition: .5s;
+    border-radius: 5px;
+
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color:var(--branco);
+    background-color: var(--azul);
+    width: 2rem;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+/*filme principal*/
+.filme-principal{
+    height: 50%;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) , url(../img/fundo.jpg);
+    height: 30rem;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 40%;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.botao:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: .8s;
+}
+
+.botao i{
+    margin-right: 1rem;
+}
+
+.container{
+    margin-left: 2rem;
+}
+
+.filme .filme-principal .container{
+    width: 50%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
+
+a{
+    margin: 15px;
+}
+
+.botao-menu {
+    background-color: #14141400;
+    border: none;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao-menu :hover{
+    background-color: #3d5bdd;
+    text-decoration: none;
+    border: 35px;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .2s;
+    }
