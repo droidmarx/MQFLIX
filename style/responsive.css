@@ -51,7 +51,6 @@
     .botao{
         margin-top: 2rem;
     }
-
 }
 
 @media screen and (max-width:475px){
@@ -63,7 +62,7 @@
     .titulo{
         margin-top: 30%;
     }
-
+}
 
 @media screen and (max-width:455px){
     header .container{
