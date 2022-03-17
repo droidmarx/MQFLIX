@@ -1,3 +1,5 @@
+
+
 :root{
     --azul: #3d5bdd;
     --preto: #141414;
@@ -52,18 +54,6 @@ header nav a:hover{
     border-radius: 5px;
 }
 
-/*filme principal*/
-.filme-principal{
-    height: 50%;
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) , url(../img/fundo.jpg);
-    height: 30rem;
-    background-size:cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
 
 .filme-principal .descricao{
     margin-top: 10px;
@@ -142,3 +132,33 @@ a{
     cursor: pointer;
     transition: .2s;
     }
+
+    
+.Title{
+    position:absolute;
+    display: flex;
+    text-decoration: none;
+    color: transparent;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    transition: .9s;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Title:hover{
+    display: flex;
+    text-decoration: none;
+    color: var(--branco);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%);
+    padding: 2px;
+    text-align: center;
+    margin: 0 auto;
+    transition: .6s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
