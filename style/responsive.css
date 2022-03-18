@@ -1,72 +1,106 @@
-@media screen and (max-width:780px){
-    header .container{
-        display: flex;
-        flex-direction: column;
-        height: 50%;
+@media screen and (max-width: 800px) {
+    header .container {
+      margin: 0px;
+      padding: 0px;
+      border: 0;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: -90px;
     }
-
-    .titulo{
-        margin: 0 auto;
-        display: flex;
+  
+    .descricao .container p {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      text-align: center;
+      max-height: 45px;
+      font-size: 0.9rem;
     }
-        
-    .descricao{
-        display: flex;
+    .descricao {
+      display: flex;
+      text-align: center;
+      font-size: 0.9rem;
+      width: 70ch;
+      margin-top: 40px;
     }
-    .botao{
-        margin: center;
-        margin-top: 1rem;
-        width: 80%;
+  
+    .titulo {
+      margin-top: 18%;
     }
-
-    .botao-menu{
-        bottom: 200px;
-        margin: 1px;
-        padding: .7rem;
-
+    nav {
+      margin-bottom: 40px;
     }
-}
-
-
-
-@media screen and (max-width:515px){
-    header .container{
-        display: flex;
-        flex-direction: column;
-        height: 50%;
+  }
+  
+  @media screen and (max-width: 545px) {
+    nav {
+      box-sizing: border-box;
+      margin-bottom: 40px;
     }
-
-    .titulo{
-        width: 100%;
-        text-align: center;
-        display: flex;
+    .botao-menu a {
+      font-size: 1rem;
     }
-        
-    .descricao{
-        display: none;
+    .container {
+      margin: 0;
+      margin-top: -6rem;
+      padding: 20px;
+      box-sizing: border-box;
     }
-    .botao{
-        margin: center;
-        margin-top: 1rem;
-        width: 80%;
+  
+    .titulo {
+      margin-top: 4rem;
+      text-align: center;
     }
-
-    .botao-menu{
-        background-color: var(--azul);
-        width: 95vw;
-        display: block;
-        margin-left: -30px;
-        padding: .7rem;
-        margin-top: 5px;
-        margin-bottom: 8px;
+  
+    .descricao {
+      margin: 0;
+      display: table-row-group;
+      text-align: center;
     }
-    .botao-menu:hover{
-        background-color: var(--azul);
-        width: 90vw;
-        display: inline;
-        margin: 1px;
-        padding: .7rem;
-
+  
+    .botao {
+      margin-top: 2rem;
     }
-
-}
+  }
+  
+  @media screen and (max-width: 475px) {
+    .botao-menu {
+      margin: 1px;
+      padding: 1px;
+    }
+  
+    .titulo {
+      margin-top: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    header .container {
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+    }
+  
+    .titulo {
+      margin: 0 auto;
+      display: flex;
+    }
+  
+    .descricao {
+      display: none;
+    }
+    .botao {
+      margin: center;
+      margin-top: 1rem;
+      width: 80%;
+    }
+  
+    .botao-menu {
+      bottom: 200px;
+      margin: 1px;
+      padding: 1px;
+    }
+  }
