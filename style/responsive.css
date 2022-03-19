@@ -1,106 +1,103 @@
 @media screen and (max-width: 800px) {
+    .descricao {
+    display: flex;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 70ch;
+    margin-top: 40px;
+    }
+
+    h3{
+    text-align: center;
+    }
+    
+    .container .botoes .botao{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100ch;
+    line-height: 1.5;
+}
+
+      
+@media screen and (max-width: 670px) {
     header .container {
-      margin: 0px;
-      padding: 0px;
-      border: 0;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      margin-bottom: -90px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
     }
-  
-    .descricao .container p {
-      margin: 0;
-      border: 0;
-      padding: 0;
-      box-sizing: border-box;
-      display: flex;
-      text-align: center;
-      max-height: 45px;
-      font-size: 0.9rem;
+    
+    .logo{
+    padding: 20px;
+    display: block;
     }
-    .descricao {
-      display: flex;
-      text-align: center;
-      font-size: 0.9rem;
-      width: 70ch;
-      margin-top: 40px;
+
+    nav{
+    box-sizing: border-box;
+    font-size: 5fc;
     }
-  
+    
     .titulo {
-      margin-top: 18%;
+        margin-top: 4rem;
+        text-align: center;
+      }
+    
+      .descricao {
+        margin: 0;
+        display: table-row-group;
+        text-align: center;
+      }
+    
+      .botao {
+        margin-top: 2rem;
+      }
+      
+
+        .nav-bar{
+          padding: .1rem;
+        }
+        
+        .nav-item{
+          display: none;
+       }
+        
+        .login-button{
+          display:none;
+        }
+        
+        .mobile-menu-icon{
+        display: flex;
+      }
+
+      .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .mobile-menu-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem ;
+      }
+
+      .mobile-menu .nav-item{
+        display: flex;
+        padding-top: 1rem;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem ;
+      }
+      
+      .mobile-menu .login-button button{
+        width: 100%;
+      }
+      
     }
-    nav {
-      margin-bottom: 40px;
-    }
-  }
-  
-  @media screen and (max-width: 545px) {
-    nav {
-      box-sizing: border-box;
-      margin-bottom: 40px;
-    }
-    .botao-menu a {
-      font-size: 1rem;
-    }
-    .container {
-      margin: 0;
-      margin-top: -6rem;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-  
-    .titulo {
-      margin-top: 4rem;
-      text-align: center;
-    }
-  
-    .descricao {
-      margin: 0;
-      display: table-row-group;
-      text-align: center;
-    }
-  
-    .botao {
-      margin-top: 2rem;
-    }
-  }
-  
-  @media screen and (max-width: 475px) {
-    .botao-menu {
-      margin: 1px;
-      padding: 1px;
-    }
-  
-    .titulo {
-      margin-top: 30%;
-    }
-  }
-  
-  @media screen and (max-width: 400px) {
-    header .container {
-      display: flex;
-      flex-direction: column;
-      height: 50%;
-    }
-  
-    .titulo {
-      margin: 0 auto;
-      display: flex;
-    }
-  
-    .descricao {
-      display: none;
-    }
-    .botao {
-      margin: center;
-      margin-top: 1rem;
-      width: 80%;
-    }
-  
-    .botao-menu {
-      bottom: 200px;
-      margin: 1px;
-      padding: 1px;
-    }
-  }
+}

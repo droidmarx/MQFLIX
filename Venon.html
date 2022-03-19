@@ -19,23 +19,34 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h2 class="logo"><i class="fas fa-mouse"> FLIX</i></h2>
-            <nav>
-                <button role="button" class="botao-menu">
-                    <a href="./index.html">Inicio</a>
-                </button>
-                <button role="button" class="botao-menu">
-                    <a href="#">Sérires</a>
-                </button>
-                <button role="button" class="botao-menu">
-                    <a href="#">Filmes</a>
-                </button>
-                <button role="button" class="botao-menu">
-                    <a href="#">Documentários</a>
-                </button>
-            </nav>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h3><i class="fa-solid fa-computer-mouse"></i> FLIX</h3>
+            </div>
+
+            <div class="nav-list">
+                <ul>                   
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Séries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Documentários</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="/botao/menu_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>                   
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Séries</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Filmes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Documentários</a></li>
+            </ul>
         </div>
+        </div>
+
     </header>
 
     <style>
@@ -61,7 +72,6 @@
             <div class="botoes">
                 <button role="button" class="botao">
                     <i class="fa-solid fa-play"></i>
-                    <a href=""></a>
                     ASSISTIR AGORA
                 </button>
                 <button role="button" class="botao">
@@ -81,6 +91,10 @@
             <div class="item">
                 <a class="Title"  href="A_Dama_na_Agua.html">A dama na agua</a>
                 <img class="box-filme" src="img/mini1.jpg" alt="A dama na agua">
+            </div>
+            <div class="item">
+                <a class="Title"  href="A_Era_do_Gelo.html">A Era do Gelo: As Aventuras de Buck</a>
+                <img class="box-filme" src="img/mini9.jpg" alt="A Era do Gelo">
             </div>
             <div class="item">
                 <a class="Title"  href="Clube_da_Luta.html">Clube da luta</a>
@@ -107,10 +121,6 @@
                 <img class="box-filme" src="img/mini8.jpg" alt="Hotel Transilvania">
             </div>
             <div class="item">
-                <a class="Title"  href="Tiro_Certo.html">Tiro Certo</a>
-                <img class="box-filme" src="img/mini9.jpg" alt="Tiro Certo">
-            </div>
-            <div class="item">
                 <a class="Title"  href="Homem_Aranha.html">Homem Aranha</a>
                 <img class="box-filme" src="img/mini2.jpg" alt="Homem Aranha">
             </div>            
@@ -118,7 +128,7 @@
         </div>
     </div>
     
-    
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/f5daf512d1.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js" ></script>
     <script src="js/owl/owl.carousel.min.js" ></script>
