@@ -27,7 +27,7 @@
     flex-direction: column;
     height: 50%;
     }
-    
+
     .logo{
     padding: 20px;
     display: block;
@@ -45,17 +45,18 @@
     
       .descricao {
         margin: 0;
-        display: table-row-group;
+        display: table-cell;
         text-align: center;
       }
     
       .botao {
-        margin-top: 2rem;
-      }
+        margin-top: 5px;
+        }
       
 
         .nav-bar{
-          padding: .1rem;
+          padding: .5rem 2rem;
+         
         }
         
         .nav-item{
@@ -85,7 +86,7 @@
 
       .mobile-menu .nav-item{
         display: flex;
-        padding-top: 1rem;
+        padding: 1rem;
         align-items: center;
         justify-content: center;
       }
@@ -98,6 +99,10 @@
       .mobile-menu .login-button button{
         width: 100%;
       }
-      
+
+      .nav-link {
+        text-align: center;
+      }
+    
     }
 }

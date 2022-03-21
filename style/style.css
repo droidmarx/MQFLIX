@@ -30,16 +30,17 @@
     display: flex;
     justify-content: space-between;
     padding: .1rem 1rem;
+    background: var(--preto); 
   }
 
 .logo{
+  font-family: "Font Awesome 6 Free", sans-serif;
   display: flex;
   align-items: center;
   color: var(--azul);
   padding: 10px;
   border-radius: 10px;
   font-size: 40px;
-  font-family: "Font Awesome 6 Free", Arial, sans-serif;
   cursor: pointer;
   transition: .5s;
   text-decoration: none;
@@ -66,7 +67,7 @@
   margin: 0 10px;
   padding: 10px;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: #494d5e28;
   text-decoration: none;
   transition: .3s;
 }
@@ -86,8 +87,13 @@
   font-size: 1.15rem;
   color: var(--branco);
   font-weight: 400;
+  width: 100%;
 } 
 
+.botoes{
+  display: flex;
+  width: 100%;
+}
 
   .descricao {
     margin-top: 10px;
@@ -120,7 +126,7 @@
   }
   
   .botao:hover {
-    background-color: var(--azul);
+    background-color: rgba(255, 255, 255, 0.13);
     border: none;
     color: rgb(0, 0, 0);
     transition: 0.8s;
@@ -193,5 +199,6 @@
 
 .open{
   display: block;
+  z-index: 2;
   }
 
